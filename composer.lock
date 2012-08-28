@@ -1,5 +1,5 @@
 {
-    "hash": "afa9ed2f087ef34f2ab54c177f478a34",
+    "hash": "1533b361a3bd4e504cbf0dc3b25f5360",
     "packages": [
         {
             "package": "doctrine/common",
@@ -78,6 +78,12 @@
             "version": "1.2.0"
         },
         {
+            "package": "oldsound/rabbitmq-bundle",
+            "version": "dev-master",
+            "source-reference": "ef478f19bd02cc938b304093161d9ecb70b7a416",
+            "commit-date": "1339399756"
+        },
+        {
             "package": "sensio/distribution-bundle",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -135,7 +141,7 @@
             "package": "symfony/assetic-bundle",
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
-            "commit-date": "1344507386"
+            "commit-date": "1346149364"
         },
         {
             "package": "symfony/monolog-bundle",
@@ -159,7 +165,7 @@
             "package": "symfony/swiftmailer-bundle",
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
-            "commit-date": "1342684512"
+            "commit-date": "1346149269"
         },
         {
             "package": "symfony/symfony",
@@ -172,6 +178,12 @@
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
             "commit-date": "1346140818"
+        },
+        {
+            "package": "twig/extensions",
+            "version": "dev-master",
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
         },
         {
             "package": "twig/extensions",
@@ -190,17 +202,21 @@
             "version": "dev-master",
             "source-reference": "32c4867f68c1bacc758602d602e18a3ac1598c76",
             "commit-date": "1345916214"
+        },
+        {
+            "package": "videlalvaro/php-amqplib",
+            "version": "dev-master",
+            "source-reference": "258573c6d264ccb06a3a4191bb529320579d21c6",
+            "commit-date": "1345726400"
         }
     ],
-    "packages-dev": [
-
-    ],
+    "packages-dev": null,
     "aliases": [
 
     ],
     "minimum-stability": "dev",
     "stability-flags": {
         "doctrine/doctrine-bundle": 20,
-        "twig/extensions": 20
+        "oldsound/rabbitmq-bundle": 20
     }
 }
